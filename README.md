@@ -8,20 +8,20 @@ This is a monorepo (using lerna) for the blog app built using microapps.
 
 1. Install Lerna
 
-    npm install -g lerna
+      npm install -g lerna
 
 1. Clone the blog monorepo:
 
-    git clone git@github.com:gautamarora/blog-monorepo.git
+      git clone git@github.com:gautamarora/blog-monorepo.git
 
 1. Install dependencies:
 
-    cd blog-monorepo
-    lerna bootstrap
+      cd blog-monorepo
+      lerna bootstrap
 
 1. Run the app:
 
-    lerna run --scope @gautamarora/blog start
+      lerna run --scope @gautamarora/blog start
 
 
 ## Live Examples
