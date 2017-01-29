@@ -1,6 +1,6 @@
 {
   "name": "@gautamarora/core",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "microapp - core engine",
   "main": "./app/index.js",
   "browser": "./client/self/index.js",
