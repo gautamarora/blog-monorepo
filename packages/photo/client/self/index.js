@@ -13,7 +13,7 @@ module.exports.init = function() {
     $(".thumbnail img").on("click", function() {
      $('#imagepreview').attr('src', $(this).attr('src'));
      $('#imagelabel').text($(this).attr('alt'));
-     $('#modal').modal('show');
+     $('#imagemodal').modal('show');
      $(this).attr('data-seen', true);
      globalBus.trigger("photo-count", {"count": $(".photo .thumbnail img[data-seen=false]").length});
   });
