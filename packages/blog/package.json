@@ -1,6 +1,6 @@
 {
   "name": "@gautamarora/blog",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "megaapp - blog",
   "main": "./app/index.js",
   "browser": "./client/self/index.js",
@@ -13,12 +13,12 @@
   "author": "Gautam Arora",
   "license": "ISC",
   "dependencies": {
-    "@gautamarora/core": "0.0.3",
-    "@gautamarora/header": "0.0.4",
-    "@gautamarora/homepage": "0.0.2",
-    "@gautamarora/photo": "0.0.2",
-    "@gautamarora/post": "0.0.2",
-    "@gautamarora/profile": "0.0.2",
+    "@gautamarora/core": "^0.1.0",
+    "@gautamarora/header": "^0.1.0",
+    "@gautamarora/homepage": "^0.1.0",
+    "@gautamarora/photo": "^0.1.0",
+    "@gautamarora/post": "^0.1.0",
+    "@gautamarora/profile": "^0.1.0",
     "browserify": "^12.0.2",
     "express": "^4.13.3"
   },
