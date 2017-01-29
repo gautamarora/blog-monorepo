@@ -12,8 +12,6 @@ exports._ = require('lodash');
 exports.Backbone = require('backbone');
 exports.bootstrap = require('bootstrap');
 
-console.log("BOOTSTRAP", exports.bootstrap)
-
 exports.globalBus = require('../../utils/global-bus');
 
 exports.init = once(function() {
