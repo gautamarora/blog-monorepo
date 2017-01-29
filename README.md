@@ -25,4 +25,4 @@ This is a monorepo (using lerna) for the blog app built using microapps.
 
 
 ## Live Examples
-    [www.gautamarora.com](http://www.gautamarora.com)
+[www.gautamarora.com](http://www.gautamarora.com)
